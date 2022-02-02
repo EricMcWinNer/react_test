@@ -1,0 +1,30 @@
+h1 {
+    margin-bottom: 32px;
+}
+.card__container {
+    border: 1px solid #ddd;
+    border: {
+        radius: 8px;
+    }
+    box-shadow: 0 0 3px rgba(0,0,0,.25);
+    .card__header {
+        padding: {
+            left: 16px;
+            top: 16px;
+            bottom: 16px;
+            right: 8px;
+        }
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+    }
+    .btn {
+        padding: {
+            left: 48px;
+            right: 48px;
+        }
+    }
+    .card__body {
+        padding: 16px;
+    }
+}

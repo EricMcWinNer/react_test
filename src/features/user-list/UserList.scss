@@ -1,0 +1,21 @@
+.users__table {
+    border: 1px solid #ccc;
+    tr {
+        th {
+            background: #F5F5F5;
+            border-bottom: 1px solid #ddd;
+            padding: 30px 18px;
+            cursor: pointer;
+        }
+        td {
+            padding: 30px 18px;
+        }
+    }
+    & > :not(:first-child) {
+        border-top: none;
+    }
+}
+.spinner__container {
+    display: flex;
+    justify-content: center;
+}

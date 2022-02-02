@@ -1,0 +1,13 @@
+.btns > *:first-child {
+  margin-right: 16px;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.edit-user__form{
+  margin-top: 2rem;
+}
